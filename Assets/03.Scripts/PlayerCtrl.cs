@@ -13,8 +13,7 @@ public class PlayerCtrl : MonoBehaviour
 
     void Start()
     {
-        GameManager.Instance.playerGold = 100;
-        GameManager.Instance.playerPower = 50;
+        
         MoveDir = Vector3.zero;
         controller = GetComponent<CharacterController>();
     }
