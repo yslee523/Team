@@ -28,6 +28,9 @@ namespace UnityStandardAssets.Characters.ThirdPerson
 		Vector3 m_CapsuleCenter;
 		CapsuleCollider m_Capsule;
 		bool m_Crouching;
+		//맵 이름 저장
+		public string currentMapName;
+		public string checkScene;
 
 
 		void Start()
